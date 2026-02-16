@@ -21302,7 +21302,7 @@ async function handleSay() {
   document.getElementById("command").focus();
 }
 
-const ws = new WebSocket("ws://18.222.131.3:8080"); // Node proxy
+const ws = new WebSocket("wss://doppelganger1.duckdns.org"); // Node proxy
 
 // Track one pending promise for each request
 let pendingResolve = null;
@@ -21994,4 +21994,5 @@ authenticatePlayer(gameClientId).then(key => {
 </body>
 
 </html>
+
 
